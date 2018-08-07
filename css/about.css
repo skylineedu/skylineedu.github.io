@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo");
+body{
+  margin:0;
+}
 ul {
   list-style-type: none;
   margin:0;
@@ -33,7 +36,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color:white;
-  color:black;
+
 }
 
 body{
@@ -48,22 +51,6 @@ h2{
   display: inline-block;
   padding-left: 50px;
   letter-spacing:5px;
-}
-h3{
-  display: inline-block;
-  padding-left:20px;
-}
-a{
-  text-decoration:none;
-  color:black;
-}
-a:hover:not(.active){
-  text-decoration:line-through;
-  color:black;
-}
-#space{
-  display: inline-block;
-  padding-right:700px;
 }
 
 .container {
@@ -81,7 +68,32 @@ a:hover:not(.active){
     left: 50%;
     transform: translate(-50%, -50%);
 }
+h3{
+  display: inline-block;
+  padding-left:20px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover:not(.active){
+  text-decoration:line-through;
+}
+#space{
+  display: inline-block;
+  padding-right:825px;
+}
 
+#info5 {
+  font-size: 55px;
+  text-align: center;
+  color: red;
+}
+
+#footer{
+  position:relative;
+  height:100px;
+}
 footer{
   background-color: black;
   text-align:center;
@@ -91,85 +103,43 @@ footer{
   font-size:10px;
   bottom:0;
   left:0;
-  position: fixed;
   width:100%;
+  position:absolute;
+  vertical-align: sub;
 }
 h4{
   font-size: 14px;
   letter-spacing: 5px;
   font-weight:lighter;
+  color:white;
 }
-
 #show {
   display:none;
   width:5000px;
   height:1000px;
 }
-
-#news {
-  margin-left: 510px;
-  margin-right: 300px;
-  font-family: "Heebo",serif;
-  margin-top:10px;
-  text-align:center;
-  width:100px;
-  font-size:24px;
-  z-index:999;
-  border-radius:10px;
-  color: black;
-}
-
-.twitter-timeline {
-  max-width: 50% !important;
-  margin-left:350px;
-  margin-right:350px;
-}
-
-#bulletin{
-  vertical-align:top;
-  font-family: "Heebo", serif;
-  text-align:center;
-  background-color:white;
+#info5{
+  margin:0px 80px 0px 80px;
+  font-size:16px;
   color:black;
-  border-radius:10px;
-  z-index:999;
-  height: 50%;
-  font-size: 24px;
+  text-align: center;
 }
-#chat{
-  font-size: 18px;
+#skyline{
+  font-size:25px;
+  letter-spacing: 5px;
+  font-weight: bold;
   color:black;
-  margin-top: 0px;
+  text-align: center;
 }
-#articles{
-  text-align:left;
-  font-size: 20px;
+#creators{
+  font-size:25px;
   letter-spacing: 5px;
+  font-weight: bold;
+  color:black;
+  text-align: center;
 }
-.articles{
-  text-align:left;
-  font-size: 20px;
-  letter-spacing: 5px;
-}
-#res{
-  font-family: "Heebo",serif;
-  margin-top:10px;
-  text-align:center;
-  width:100px;
-  font-size:24px;
-  z-index:999;
-  border-radius:10px;
-  color: black;
-}
-footer{
-  background-color: black;
-  text-align:center;
-  color:white;
-  letter-spacing: 5px;
-  border:none;
-  font-size:10px;
-  bottom:0;
-  left:0;
-  position:static;
-  width:100%;
+#cc{
+  display:block;
+  width:40%;
+  margin:50px auto 50px auto;
 }

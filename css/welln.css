@@ -1,98 +1,160 @@
-@import url("https://fonts.googleapis.com/css?family=Syncopate");
-@import url("https://fonts.googleapis.com/css?family=Terminal+Dosis");
-
-body {
-  font-family:"Termianl Dosis", monospace;
+@import url("https://fonts.googleapis.com/css?family=Heebo");
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+  font-family:"Heebo", serif;
+  font-weight:bold;
+  color:black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-left: 20px;
 }
 
-#menubar{
-    margin: 0;
-    font-size: 25px;
-    font-weight: bold;
-    background-color:transparent;
-    font-color:black;
-    position:left;
-    width: 200px;
-}
-
-#menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
-    background-color: white;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+li {
+  float: left;
 }
 
 li a {
-    display: block;
-    color: black;
-    padding: 30px 20px;
-    text-decoration: none;
-    text-align:center;
-}
-
-li a.active {
-    background-color: transparent;
-    color: #374785;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: transparent;
-    color: #A8D0E6;
+  background-color:white;
+  text-decoration: line-through;
 }
 
-h1 {
-  font-family:"Syncopate", monospace;
-  margin-left: 30px;
+.active {
+  background-color:white;
+
 }
 
-#rem {
-  padding-left: 400px;
-  padding-top: 50px;
+body{
+  font-family: "Heebo",serif;
+  color:black;
+}
+h2{
+  font-family: "Heebo",serif;
+  color:black;
+  font-size:36px;
+  margin-left:15px;
+  display: inline-block;
+  padding-left: 50px;
+  letter-spacing:5px;
+}
+h3{
+  display: inline-block;
+  padding-left:20px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-ul.a {
-    list-style-type: circle;
-    width: 300px;
-    padding-left: 350px;
+/* Centered text */
+.center {
+    font-size: 36px;
+    letter-spacing:5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#quotes {
-  padding-right: 200px;
-  text-align: right;
+#space{
+  display: inline-block;
+  padding-right: 825px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover:not(.active) {
+  color:black;
+  text-decoration: line-through;
 }
 
-#per {
+footer{
+  background-color: black;
+  text-align:center;
+  color:white;
+  letter-spacing: 5px;
+  border:none;
+  font-size:10px;
+  bottom:0;
+  left:0;
+  position:static;
+  width:100%;
+}
+
+h4{
+  font-size: 14px;
+  letter-spacing: 5px;
+  font-weight:lighter;
+}
+#show {
+  display:none;
+  width:5000px;
+  height:1000px;
+}
+#medspace{
+  height: 70px;
+}
+#health{
+  font-size: 25px;
+  padding-left: 550px;
+
+}
+#day{
+  font-size: 25px;
+  padding-left:420px;
+}
+#slider{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rem{
+  text-align:center;
+  letter-spacing: normal;
+  font-size: 18px;
   padding-left: 300px;
+  padding-right: 300px;
 }
-a {
-  color: darkblue;
+.state{
+  font-size: 25px;
+  padding-left: 440px;
 }
-a:hover {
-  color: blue;
+#per{
+  font-size:18px;
+  padding-left:0px;
+  padding-right: 30px;
+  text-align: center;
 }
+#tips{
+  font-size: 25px;
+  padding-left: 440px;
+}
+#essays{
+  text-align: center;
+  font-size: 18px;
+  padding-left:0px;
+  padding-right: 30px;
+}
+#videos{
+  font-size: 25px;
+  padding-left: 520px;
+}
+#motivation{
+  padding-right:300px;
+  padding-left:400px;
 
-#essays {
-  padding-left: 300px;
-}
-
-#motivation {
-  padding-left: 800px;
-}
-
-#videos {
-  size: 50%;
-  padding-left: 800px;
-}
-
-#search{
-  background: none;
-  text-indent: 0px;
-  width: 500px;
-}
-#title{
-  padding-right: 500px;
 }
